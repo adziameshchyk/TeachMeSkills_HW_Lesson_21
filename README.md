@@ -77,7 +77,10 @@ To use the calculator, open your web browser and navigate to the following URL, 
 http://localhost:8080/CalculatorServlet/calc?num1=NUMBER1&num2=NUMBER2&operation=OPERATION
 
 Example:  
-http://localhost:8080/CalculatorServlet/calc?num1=5&num2=3&operation=add
+http://localhost:8080/CalculatorServlet/calc?num1=6&num2=2&operation=div  
+![screenshot](https://github.com/adziameshchyk/TeachMeSkills_HW_Lesson_21_CalculatorServlet/assets/123600438/c678f3cc-fb70-4551-aa42-51abc433aeb6)
+
+
 
 ### Supported Operations
 
@@ -94,12 +97,23 @@ CalculatorServlet/
 ├── .gitignore
 └── src/
     └── main/
-        ├── java/
-        │   └── com/
-        │       └── example/
-        │           ├── Calculator.java
-        │           ├── CalculatorService.java
-        │           └── CalculatorServlet.java
-        └── webapp/
-            └── WEB-INF/
-                └── web.xml
+        └── java/
+            └── com/
+                └── tms/
+		    ├── entity/
+		    |	└── Calculator.java
+		    ├── service/
+		    |	└── CalculatorService.java
+		    └── servleet/
+			└── CalculatorServlet.java
+  
+
+Description of Classes
+
+Calculator.java: Interface with a static method for performing calculations.
+CalculatorService.java: Interface with a static method for converting operation strings to characters.
+CalculatorServlet.java: Servlet that handles GET requests, performs calculations, and returns the result.
+
+Configuration
+
+pom.xml: Maven configuration file with dependencies and build instructions.
