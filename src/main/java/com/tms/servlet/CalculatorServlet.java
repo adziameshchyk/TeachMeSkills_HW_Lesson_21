@@ -1,7 +1,7 @@
-package com.tms.calculater.servlet;
+package com.tms.servlet;
 
-import com.tms.calculater.service.CalculatorService;
-import com.tms.calculater.entity.Calculator;
+import com.tms.service.CalculatorService;
+import com.tms.entity.Calculator;
 import jakarta.servlet.ServletException;
 import jakarta.servlet.annotation.WebServlet;
 import jakarta.servlet.http.HttpServlet;

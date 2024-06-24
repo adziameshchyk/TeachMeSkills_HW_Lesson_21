@@ -1,6 +1,7 @@
-package com.tms.calculater.entity;
+package com.tms.entity;
 
 public interface Calculator {
+
     static double calculate(double num1, double num2, char operator) throws IllegalArgumentException {
         return
             switch (operator) {
@@ -11,4 +12,5 @@ public interface Calculator {
                 default -> throw new IllegalStateException("Unexpected value: " + operator);
             };
     }
+
 }

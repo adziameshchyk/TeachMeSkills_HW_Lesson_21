@@ -1,4 +1,4 @@
-package com.tms.calculater.service;
+package com.tms.service;
 
 public interface CalculatorService {
 
