@@ -1,4 +1,4 @@
-# JDBC
+# Work with the Internet and networks
 >This repository was created for homework in lessons №21 - "Work with the Internet and networks".
 ## Tasks
 
